@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<div>홈</div>}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path='/oauth/callback' element={<OauthCallback />}></Route>
       </Routes>
